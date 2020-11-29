@@ -3,8 +3,8 @@
 # N-BODY DYNAMICS SIMULATOR
 # 
 # SIMULATES THE DYNAMICS OF N MASSIVE BODIES UNDER THE GRAVITATIONAL FORCE
-# MASSES ARE SIMULATED AS POINT MASSES AND PROPEGATED FORWARD IN TIME VIA
-# KICK-DRIFT-KICK DISCRETE TIME PROPEGATION (SEE n_body.simulate() BELOW)
+# MASSES ARE SIMULATED AS POINT MASSES AND PROPAGATED FORWARD IN TIME VIA
+# KICK-DRIFT-KICK DISCRETE TIME PROPAGATION (SEE n_body.simulate() BELOW)
 #
 # AUTHOR: KYLE MORGENSTEIN (KYLEM@UTEXAS.EDU)
 # DATE: 11/28/2020
@@ -169,7 +169,7 @@ class n_body:
 			higher => damps accelerations at close distances
 			lower => allows acceleration to scale asymptotically
 			0 => causes numerical errors, don't do this
-		self.dt: time propegation step size
+		self.dt: time propagation step size
 			higher => decreases expressiveness of model because the model is integrated over larger time steps
 			lower => increases expressiveness of model at cost of computation time
 			TBH I WOULDN"T TOUCH THIS IF I WERE YOU
@@ -419,7 +419,7 @@ class n_body:
 
 	def simulate(self):
 		'''
-		Main simulation loop using kick-drift-kick propegation
+		Main simulation loop using kick-drift-kick propagation
 
 		'''
 		#start = time.time()
