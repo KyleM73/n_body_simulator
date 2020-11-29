@@ -58,7 +58,9 @@ OTHER HELPFUL USAGE TIPS
 
 if you don'y care about selecting parameters, 
 the entire simulation can be run inline as
->n = 
+
+>n = 3
+
 >sim = n_body(3).run()
 
 or 
@@ -68,17 +70,29 @@ randomly generates 2-5 masses
 >sim = n_body().run()  
 
 The parameters you should focus on changing are:
-	- initial_conds - be creative with your initial conditions!
-	- self.G - strength of gravity
-	- self.S - damping on collisions
-	- run_time - simulation length
-	- scale - scales maximum radius of uniform random distribution for random poisition generation
-	- save - frames per second of simulation output video
-	- view_lim - axes ranges for visualization
+
+- initial_conds - be creative with your initial conditions!
+	
+- self.G - strength of gravity
+	
+- self.S - damping on collisions
+
+- run_time - simulation length
+
+- scale - scales maximum radius of uniform random distribution for random poisition generation
+
+- save - frames per second of simulation output video
+
+- view_lim - axes ranges for visualization
 
 DEV NOTES:
-	- visualizations are mapped from X-Y-Z space to the X-Y plane for visualization
-	- visualizations are shown in the Center-of-Mass (COM) frame
-	- everything *should* work but I wrote this in three days so pls don't roast me on Twitter for my hacky code thx <3
-	- lmk if something is broken though, thx!!!
-	- have fun :)
+
+- visualizations are mapped from X-Y-Z space to the X-Y plane for visualization
+
+- visualizations are shown in the Center-of-Mass (COM) frame
+
+- everything *should* work but I wrote this in three days so pls don't roast me on Twitter for my hacky code thx <3
+
+- lmk if something is broken though, thx!!!
+
+- have fun :)
