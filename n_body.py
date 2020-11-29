@@ -106,7 +106,7 @@ class n_body:
 	sim = n_body().run()  
 
 	The parameters you should focus on changing are:
-	# initial_conds - be creative with your initial conditions!
+	* initial_conds - be creative with your initial conditions!
 	* self.G - strength of gravity
 	* self.S - damping on collisions
 	* run_time - simulation length
