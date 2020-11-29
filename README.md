@@ -40,10 +40,22 @@ run simulation
 >sim.simulate()
 
 plot the results
->save = 100 #sets framerate for saved simulation - set to 0 to playback only
->autoscroll = False #automatically adjusts view to keep all masses in view
->replay = False #better to just generate the video and watch it at full speed
->view_lim = 20 #scales view to [-view_lim, view_lim]
+
+sets framerate for saved simulation - set to 0 to playback only
+
+>save = 100
+
+automatically adjusts view to keep all masses in view
+
+>autoscroll = False 
+
+better to just generate the video and watch it at full speed
+
+>replay = False
+
+scales view to [-view_lim, view_lim]
+
+>view_lim = 20
 
 >sim.plot(save,autoscroll,replay,view_lim)
 
