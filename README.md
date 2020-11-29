@@ -7,7 +7,7 @@ KICK-DRIFT-KICK DISCRETE TIME PROPEGATION (SEE n_body.simulate() BELOW)
 AUTHOR: KYLE MORGENSTEIN (KYLEM@UTEXAS.EDU)
 DATE: 11/28/2020
 
-# USAGE DOCUMENTATION
+## USAGE DOCUMENTATION
 
 
 this example generates the movie file listed in the repository under "n_body_trials/*"
@@ -62,7 +62,7 @@ saved simulations take up ~2-20 MB depedning on run_time
 generating the simulated video will take ~1-15 minutes 
 depending on the length of simulation and your hardware
 
-# WAIT UNTIL THE CODE FINISHES RUNNING COMPLETLY BEFORE TRYING TO OPEN THE VIDEO FILE
+## WAIT UNTIL THE CODE FINISHES RUNNING COMPLETLY BEFORE TRYING TO OPEN THE VIDEO FILE
 
 OTHER HELPFUL USAGE TIPS
 
